@@ -1,9 +1,14 @@
 # DOCX Filler
-Esse script em Python preenche o mesmo campo em diversos documentos de uma só vez.
+Um script em Python que preenche o mesmo campo em diversos documentos de uma só vez.
+
 ## Como usar?
 Primeiramente, no documento `.docx` os campos a serem preenchidos devem estar no seguinte formato: `*Nome do campo*`.
 
-Com o modelo de documento preenchido, basta navegar até a pasta do script e executar o seguinte comando no terminal:
+Com o modelo de documento preenchido, rode o seguinte comando para instalar as dependências:
+```bash
+pip install -r requirements.txt
+```
+Com as dependências instaladas, rode o seguinte comando para executar script:
 ```bash
 python main.py
 ```
